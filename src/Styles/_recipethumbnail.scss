@@ -1,0 +1,46 @@
+a {
+  text-decoration: none;
+}
+.recipe-thumbnail {
+  border: 1px solid #1e3ca6;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 100%;
+  width: 150px;
+  margin: 8px auto;
+  background-color: #faf7ee;
+
+  .thumbnail-name {
+    font-family: "Raleway";
+    font-weight: 500;
+    color: #1e3ca6;
+    text-align: center;
+    margin: 8px 0px;
+  }
+  .thumbnail-pic-container {
+    width: 140px;
+    height: 140px;
+    margin: 3px auto;
+    overflow: hidden;
+    border: 2px solid #f3ca5c;
+    border-radius: 5px;
+    background-size: 185px;
+    .thumbnail-pic {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .recipe-thumbnail {
+    width: 250px;
+    .thumbnail-name {
+      font-size: 18px;
+    }
+    .thumbnail-pic-container {
+      width: 240px;
+      height: 240px;
+      background-size: 400px;
+    }
+  }
+}
